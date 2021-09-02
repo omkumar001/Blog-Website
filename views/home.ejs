@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+
+<p><%= startingContent %></p>
+
+<% dispPosts.forEach(function(posti) { %>
+<h1><%= posti.title%></h1>
+<p><%= posti.post.substring(0,100)+"...."%></p>
+<a href="/post/<%= posti._id%>">Read More</a>
+<% }); %> 
+
+
+<%- include("partials/footer"); -%>
