@@ -6,7 +6,7 @@ A dummy blog web app where the users can post as well as see the posted blogs to
 
 * Use CLI .
 * npm init
-* npm i mongoose express body-parser ejs lodash
+* npm i  (required one : mongoose express body-parser ejs lodash)
 
 And done .....
 
